@@ -1,0 +1,10 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\simon\Desktop\Uni\Magistrale\Progetti\Parallel Programming CUDA\ImageProcessingSEQ" -B "C:\Users\simon\Desktop\Uni\Magistrale\Progetti\Parallel Programming CUDA\ImageProcessingSEQ\cmake-build-release"
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: vc16
+-- OpenCV STATIC: OFF
+-- Found OpenCV: C:/Users/simon/Desktop/Uni/Magistrale/Progetti/Parallel Programming CUDA/NiceLibs/opencv/build (found version "4.10.0")
+-- Found OpenCV 4.10.0 in C:/Users/simon/Desktop/Uni/Magistrale/Progetti/Parallel Programming CUDA/NiceLibs/opencv/build/x64/vc16/lib
+-- You might need to add C:\Users\simon\Desktop\Uni\Magistrale\Progetti\Parallel Programming CUDA\NiceLibs\opencv\build\x64\vc16\bin to your PATH to be able to run your applications.
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/simon/Desktop/Uni/Magistrale/Progetti/Parallel Programming CUDA/ImageProcessingSEQ/cmake-build-release
