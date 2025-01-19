@@ -200,6 +200,7 @@ int main() {
     /*<--------------------------------MULTI-STREAM SETUP-------------------------------->*/
     const int streamsNumber = 4;
     cudaStream_t streams[streamsNumber];
+#pragma unroll
     for (int i = 0; i < streamsNumber; ++i) {
         CUDA_CHECK(cudaStreamCreate(&streams[i]));
     }
