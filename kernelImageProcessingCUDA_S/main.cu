@@ -163,7 +163,7 @@ __global__ void kernelConvolution(unsigned char *d_imageDatas, unsigned char *d_
 int main() {
 
     cv::Mat image = cv::imread(
-        R"(C:\Users\simon\Desktop\Uni\Magistrale\Progetti\Parallel Programming CUDA\Datasets\kernelImgProcessingDataset\22.jpg)");
+        R"(path_to_image)");
     if (image.empty()) {
         std::cerr << "ERROR: Image NOT found!" << std::endl;
         return -1;
